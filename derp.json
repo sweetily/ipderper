@@ -1,20 +1,33 @@
 {
   "Regions": {
-    "999": {
-      "RegionID": 999,
-      "RegionCode": "ali-sh",
-      "RegionName": "Aliyun Shanghai",
+    "901": {
+      "RegionID": 901,
+      "RegionCode": "luokang",
+      "RegionName": "Aliyun",
       "Nodes": [
         {
-          "Name": "999a",
-          "RegionID": 999,
+          "Name": "901a",
+          "RegionID": 901,
           "DERPPort": 10501,
           "HostName": "106.53.77.94",
           "IPv4": "106.53.77.94",
           "InsecureForTests": true
         }
       ]
+    },
+    "902": {
+      "RegionID": 902,
+      "RegionCode": "houjiahao",
+      "RegionName": "cloudcone USA",
+      "Nodes": [
+        {
+          "Name": "902a",
+          "RegionID": 902,
+          "DERPPort": 12345,
+          "HostName": "www.sweetily.fans",
+          "InsecureForTests": true
+        }
+      ]
     }
   }
 }
-
